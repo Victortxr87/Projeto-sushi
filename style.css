@@ -344,4 +344,15 @@ nav {
     padding: 10px;
 }
 
+nav li a{
+    
+    margin: 4px;
+    
+}
+nav li a{
+    
+    
+    font-size: 18px;
+}
+
 }
