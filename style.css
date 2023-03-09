@@ -22,6 +22,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
+   
 }
 nav li {
 
@@ -148,10 +149,10 @@ color: orange;
 
     display: flex;
     align-items: center;
-    background-color: #888888;
     background: linear-gradient(#888888,#000000 );
     height: 600px;
     justify-content: center;
+  
 }
 
 
@@ -324,11 +325,11 @@ nav {
 .enviar {
     width: 65%;
 }
-}
+
 
 .video {
-
-    width: 100%;
+   
+    padding: 2%;
 }
 .principal p {
 
@@ -341,4 +342,6 @@ nav {
 .beneficios {
 
     padding: 10px;
+}
+
 }
