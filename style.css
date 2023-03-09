@@ -1,0 +1,344 @@
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+   
+}
+header { 
+   
+    padding: 20px 0;
+    background: black;
+    color:aliceblue
+    
+}
+.caixa {
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+
+nav a {
+
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+   }
+
+nav a:hover {
+color: orange;
+
+
+   }
+
+
+.sushibanner {
+
+    width: 100%;
+}
+
+.titulo-principal {
+
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+.principal{
+
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p {
+
+    margin:  0 0 1em;
+}
+
+.principal strong {
+
+   font-weight: bold;
+
+}
+
+.principal em {
+
+    font-style: italic;
+}
+
+
+.minisushi {
+
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+} 
+
+.mapa {
+
+    padding: 3em 0;
+    background: linear-gradient(#fefefe ,#888888 );
+  
+}
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.mapa p {
+
+    margin: 0 0 2em;
+    text-align: center;
+    
+}
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+    
+
+}
+
+.conteudo-beneficios {
+
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+   
+   }
+.itens {
+
+    line-height: 1.5;
+}
+
+.sushibanner2 {
+
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+
+.video {
+
+    display: flex;
+    align-items: center;
+    background-color: #888888;
+    background: linear-gradient(#888888,#000000 );
+    height: 600px;
+    justify-content: center;
+}
+
+
+   /* css produtos*/
+
+
+
+.produtos{
+display: flex;
+justify-content: center;
+
+
+}
+.card {
+    width: 190px;
+    height: 254px;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: #fefefe;
+    padding: 40px;
+    margin: 10px;
+  
+    
+   }
+   
+   .card h1 {
+    padding: 5px;
+    text-align: center;
+
+   }
+   .rodizioimg {
+
+    width: 93%;
+    height: 58%;
+    padding-top: 17px;
+    padding-left: 2px;
+   }
+
+
+   footer{
+
+    text-align: center;
+    font-size: 25px;
+    background: black;
+    padding: 40px 0 ;
+    
+}
+.copy {
+
+color:white;
+margin: 20px 0 0;
+
+}
+/* css contatos */
+
+form {
+
+    margin: 40px 0;
+    padding-left: 30px;
+}
+
+form label,form legend  {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+.input-padrao {
+
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    width: 50%;
+}
+.checkbox {
+
+    margin: 20px 0;
+}
+
+.enviar {
+
+    width: 20%;
+    padding: 15px 0;
+    background: #838181;
+    color: rgb(5, 5, 4);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; 
+    cursor: pointer ;
+
+}
+
+.enviar:hover {
+
+    background: #838181;
+    transform: scale(1.1);
+ 
+    
+}
+
+table {
+
+    margin: 30px;
+    
+}
+
+thead {
+background: #838181;
+color: aliceblue;
+font-weight: bold;
+padding-left: 30px;
+
+}
+
+td,th {
+
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+/* responsividade */
+
+@media screen and (max-width:480px) {
+
+.caixa, .principal, .conteudo-beneficios,.mapa-conteudo, .video, .footer {
+
+    width: auto;
+}
+   
+h1 {
+    text-align: center;
+   
+}
+nav {
+    position: static;
+}
+.conteudo-beneficios, .lista-beneficios {
+    width: 100%;
+}
+
+.sushibanner2 {
+    width: 100%;
+    padding-top: 15px; 
+}
+
+.produtos li {
+    display: flex;
+}
+.section {
+
+    display: flex;
+    width: 100%;
+}
+.grid {
+
+   padding: 30px;
+    
+}
+.produtos{
+    
+    flex-direction: column;
+    padding-left: 45px;
+}
+
+.enviar {
+    width: 65%;
+}
+}
+
+.video {
+
+    width: 100%;
+}
+.principal p {
+
+    padding: 10px;
+}
+.mapa {
+
+    padding: 10px;
+}
+.beneficios {
+
+    padding: 10px;
+}
