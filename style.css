@@ -165,6 +165,7 @@ display: flex;
 justify-content: center;
 
 
+
 }
 .card {
     width: 190px;
@@ -334,6 +335,7 @@ nav {
 .principal p {
 
     padding: 10px;
+    text-align: justify;
 }
 .mapa {
 
