@@ -29,14 +29,13 @@
     <main>
 <form>
    <label for="nomeesobrenome"> Nome e sobrenome  </label> 
-    <input type="text" id="nomeesobrenome" class="input-padrao" required>
-
+    <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="Seu nome">
 
     <label for="E-mail">E-mail </label> 
-    <input type="email" id="E-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
+    <input type="email" id="E-mail" class="input-padrao" required  placeholder="seuemail@dominio.com">
 
     <label for="Telefone">Telefone </label> 
-    <input type="tel" id="Telefone"class="input-padrao" required required placeholder="(XX) XXXXX-XXXX" >
+    <input type="tel" id="Telefone"class="input-padrao" required  placeholder="(XX) XXXXX-XXXX" >
 
     <label for="Mensagem">Mensagem </label> 
 
@@ -64,9 +63,7 @@
 
 </fieldset>
 
-<label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas atividades por e-mail? </label>
-
-    <input type="submit" value="Enviar formulário" class="enviar">
+<input type="submit" value="Enviar formulário" class="enviar" onclick="enviarFormulario()">
     
 </form>
 
