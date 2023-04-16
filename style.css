@@ -371,5 +371,16 @@ nav li a{
     
     font-size: 18px;
 }
+nav ul {
+    display: flex;
+    justify-content: center;
+    
+    font-size: 18px;
+}
+nav li {
+
+    margin: 17px
+}
+
 
 }
